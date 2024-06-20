@@ -1,6 +1,6 @@
 function filterArray(numbers, value) {
     let result = new Array();
-    for (currentValue of numbers) {
+    for (const currentValue of numbers) {
         if (currentValue > value) result.push(currentValue);
     }
     return result;
